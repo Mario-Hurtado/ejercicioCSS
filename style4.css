@@ -1,0 +1,17 @@
+/*
+    En este caso se podría utilizar también 
+    input[size], ya que los cuadros de texto son 
+    los únicos que poseen este atributo en el HTML.
+*/
+input[type="text"] {
+  width: 150px;
+  background-color: greenyellow;
+  margin-bottom: 10px;
+  border-color: white;
+}
+
+label[for="visitante"] {
+  color: orangered;
+  font-weight: bolder;
+  font-size: large;
+}
